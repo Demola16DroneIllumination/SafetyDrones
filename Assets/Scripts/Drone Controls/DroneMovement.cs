@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class DroneMovement : MonoBehaviour
 {
@@ -10,8 +12,17 @@ public class DroneMovement : MonoBehaviour
 
     private Transform nextLocation;
 
+    private Vector3 movementDirection;
+    public float rotationSpeed = 120;
+
     [Tooltip("Drone's speed")]
     public float droneSpeed = 5;
+
+    [Header("Drone Inputs")]
+    [Tooltip("Drone's launch input")]
+    [SerializeField]
+    private InputActionReference launchInput;
+    private bool isLaunched = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,7 +34,10 @@ public class DroneMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-            MoveDrone(); 
+        if (isLaunched)
+        {
+            MoveDrone();   
+        }
     }
 
     private void MoveDrone() 
@@ -50,9 +64,24 @@ public class DroneMovement : MonoBehaviour
                 nextLocation = location[index + 1];
             }
         }
-
         // Liikuttaa Dronea waypointista toiseen
         transform.position = Vector3.MoveTowards(transform.position, nextLocation.position, droneSpeed * Time.deltaTime);
+
+    }
+
+    private void OnEnable()
+    {
+        launchInput.action.performed += LaunchDrone;
+    }
+
+    private void OnDisable()
+    {
+        launchInput.action.performed -= LaunchDrone;
+    }
+
+    private void LaunchDrone(InputAction.CallbackContext context)
+    {
+        isLaunched = true;
     }
 
 }
