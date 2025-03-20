@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Lighting data asset
+/[Aa]ssets/Versatile Studio Assets/Demo City By Versatile Studio/Scenes/demo_city_night
