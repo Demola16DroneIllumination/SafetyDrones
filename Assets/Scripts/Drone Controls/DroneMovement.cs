@@ -24,6 +24,10 @@ public class DroneMovement : MonoBehaviour
     private InputActionReference launchInput;
     private bool isLaunched = false;
 
+    [SerializeField]
+    private Transform DronePart;
+    private bool finalDestination = false;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -45,6 +49,7 @@ public class DroneMovement : MonoBehaviour
         if (nextLocation == null)
         {
             nextLocation = location[0];
+            DronePart.rotation = Quaternion.Euler(-90,-90, 0);
         }
         else if (transform.position == nextLocation.position)
         {
@@ -53,6 +58,14 @@ public class DroneMovement : MonoBehaviour
             {
                 // Drone on saapunut viimeiseen waypointtiinsa listassa ja se pysh‰htyy
                 droneSpeed = 0;
+
+                if (!finalDestination)
+                {
+                    // Drone k‰‰ntyy 90astetta waypointtiin
+                    DronePart.rotation = Quaternion.Euler(-90, 0, 0);
+                    finalDestination = true;
+
+                }
 
                 //// Drone palaa takaisin ensimm‰iseen waypointtiin
                 //nextLocation = location[0];

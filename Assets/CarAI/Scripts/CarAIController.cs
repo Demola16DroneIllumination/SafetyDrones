@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CarAIController : MonoBehaviour
 {
@@ -64,6 +65,13 @@ public class CarAIController : MonoBehaviour
     private float steerAngle = 0f;
     private bool flipOverCheck = false;
 
+
+    [Header("Activate driving")]
+    [SerializeField]
+    private InputActionReference driveInput;
+    private bool isDriving = false;
+
+
     private void FixedUpdate()
     {
         WheelUpdate(frontRight, frontRightCollider);
@@ -71,12 +79,16 @@ public class CarAIController : MonoBehaviour
         WheelUpdate(rearRight, rearRightCollider);
         WheelUpdate(rearLeft, rearLeftCollider);
 
-        //Calculate speed
-        CalculateKMH();
+        if (isDriving)
+        {
 
-        //Search for checkpoints
+            //Calculate speed
+            CalculateKMH();
 
-        SearchForCheckpoints();
+            //Search for checkpoints
+
+            SearchForCheckpoints();
+        }
 
         if(despawnForFlippingOver && !flipOverCheck)
         {
@@ -113,6 +125,16 @@ public class CarAIController : MonoBehaviour
         flipOverCheck = false;
 
         yield return null;
+    }
+
+    private void OnEnable()
+    {
+        driveInput.action.performed += StartDriving;
+    }
+
+    private void OnDisable()
+    {
+        driveInput.action.performed -= StartDriving;
     }
 
     private bool isCarFlipedOver()
@@ -258,5 +280,10 @@ public class CarAIController : MonoBehaviour
                 SetSpeed(speed);
             }
         }
+    }
+
+    private void StartDriving(InputAction.CallbackContext context)
+    {
+        isDriving = true;
     }
 }
