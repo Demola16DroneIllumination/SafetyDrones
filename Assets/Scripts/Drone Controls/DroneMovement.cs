@@ -5,10 +5,16 @@ using UnityEngine.InputSystem;
 
 
 public class DroneMovement : MonoBehaviour
-{
+{    
+    private List<Transform> location = new();
     [Header("Drone Settings")]
-    [Tooltip("Drone's flight path positions")]
-    public List<Transform> location = new() { null};
+
+
+    [Tooltip("Waypoint Set 1")]
+    public List<Transform> waypointSet1 = new();
+
+    [Tooltip("Waypoint Set 2")]
+    public List<Transform> waypointSet2 = new();
 
     private Transform nextLocation;
 
@@ -56,18 +62,18 @@ public class DroneMovement : MonoBehaviour
             int index = location.IndexOf(nextLocation);
             if (index == location.Count - 1)
             {
-                // Drone on saapunut viimeiseen waypointtiinsa listassa ja se pyshähtyy
+                // Drone on saapunut viimeiseen waypointtiinsa listassa ja se pyshï¿½htyy
                 droneSpeed = 0;
 
                 if (!finalDestination)
                 {
-                    // Drone kääntyy 90astetta waypointtiin
+                    // Drone kï¿½ï¿½ntyy 90astetta waypointtiin
                     DronePart.rotation = Quaternion.Euler(-90, 0, 0);
                     finalDestination = true;
 
                 }
 
-                //// Drone palaa takaisin ensimmäiseen waypointtiin
+                //// Drone palaa takaisin ensimmï¿½iseen waypointtiin
                 //nextLocation = location[0];
 
             }
@@ -82,19 +88,31 @@ public class DroneMovement : MonoBehaviour
 
     }
 
-    private void OnEnable()
-    {
-        launchInput.action.performed += LaunchDrone;
-    }
 
-    private void OnDisable()
-    {
-        launchInput.action.performed -= LaunchDrone;
-    }
 
-    private void LaunchDrone(InputAction.CallbackContext context)
+    public void LaunchDrone()
     {
         isLaunched = true;
     }
 
+    private void SetWaypointSet(int setNumber)
+    {
+        if (setNumber == 1)
+        {
+            location = new List<Transform>(waypointSet1);
+        }
+        else if (setNumber == 2)
+        {
+            location = new List<Transform>(waypointSet2);
+        }
+    }
+    public void UseWaypointSet1()
+    {
+        SetWaypointSet(1);
+    }
+
+    public void UseWaypointSet2()
+    {
+        SetWaypointSet(2);
+    }
 }

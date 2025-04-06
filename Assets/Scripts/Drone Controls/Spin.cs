@@ -20,7 +20,7 @@ public class Spin : MonoBehaviour
         // Update is called once per frame
     void Update()
     {
-        droneSpeed = GameObject.Find("Drone").GetComponent<DroneMovement>().droneSpeed;
+        droneSpeed = GameObject.Find("Drone 1").GetComponent<DroneMovement>().droneSpeed;
 
         if (droneSpeed <= 0.1f)
         {
