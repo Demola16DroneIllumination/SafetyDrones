@@ -7,8 +7,8 @@ public class Spin : MonoBehaviour
 {
     [Header("Fan Settings")]
     public float fanSpeed;
-    public List<Transform> signs = new() { null };
-    public GameObject signLocation;
+    // public List<Transform> signs = new() { null };
+    // public GameObject signLocation;
 
     private float droneSpeed;
 

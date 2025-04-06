@@ -57,5 +57,4 @@ public class StopScript : MonoBehaviour
             carController.CheckPointSearch = true;
         }
     }
-
 }
