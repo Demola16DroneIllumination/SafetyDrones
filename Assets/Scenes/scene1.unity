@@ -8421,10 +8421,7 @@ MonoBehaviour:
   - {fileID: 2035556191}
   - {fileID: 768367769}
   location2:
-  - {fileID: 1034951795}
-  - {fileID: 1133390080}
-  - {fileID: 1334905960}
-  - {fileID: 1898653991}
+  - {fileID: 0}
   nextLocation: {fileID: 0}
   rotationSpeed: 720
   situation: 0
@@ -9210,7 +9207,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.099999994
-  far clip plane: 2000
+  far clip plane: 99.99999
   field of view: 53.2
   orthographic: 0
   orthographic size: 0.24000002
