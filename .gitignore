@@ -72,6 +72,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+<<<<<<< HEAD
+# Lighting data asset ignore.
+**/LightingData.asset
+=======
 # Lighting data asset ignore
 **/LightingData.asset
 
+>>>>>>> main
