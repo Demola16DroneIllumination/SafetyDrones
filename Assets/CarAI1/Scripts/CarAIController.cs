@@ -86,7 +86,6 @@ public class CarAIController : MonoBehaviour
             CalculateKMH();
 
             //Search for checkpoints
-
             SearchForCheckpoints();
         }
 
@@ -280,6 +279,7 @@ public class CarAIController : MonoBehaviour
                 SetSpeed(speed);
             }
         }
+    
     }
 
     private void StartDriving(InputAction.CallbackContext context)

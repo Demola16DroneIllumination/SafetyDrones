@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class CheckpointScript : MonoBehaviour
@@ -11,6 +12,10 @@ public class CheckpointScript : MonoBehaviour
 
     [Tooltip("List of the next checkpoints. If you add more that one checkpoint, the ai will choose one randomly.")]
     public List<Transform> nextCheckpoints = new List<Transform> ();
+
+    public List<Transform> alternativeCheckpoints = new List<Transform>();
+
+    public bool blocked = false;
 
     void Awake()
     {
@@ -26,14 +31,32 @@ public class CheckpointScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        for (int i = 0; i < nextCheckpoints.Count; i++)
+        {
+            if (nextCheckpoints[i] == null)
+            {
+                nextCheckpoints.RemoveAt(i);
+                int index = Random.Range(0, alternativeCheckpoints.Count);
+                nextCheckpoints.Add(alternativeCheckpoints[index]);
+            }
+        }
+
+        CheckpointBlocked();
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        //Destroy this object if the collider name is "Stop"
+        if (other.gameObject.name == "Stop")
+        {
+           blocked = true;
+        }
+            
+
         CarAIController controller = other.GetComponent<CarAIController>();
 
-        if(controller && controller.nextCheckpoint.gameObject == transform.gameObject)
+        if (controller && controller.nextCheckpoint.gameObject == transform.gameObject)
         {
             if(speedLimit != -1)
                 controller.speedLimit = speedLimit;
@@ -67,16 +90,31 @@ public class CheckpointScript : MonoBehaviour
         }
     }
 
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
+
+        if (alternativeCheckpoints.Count > 0)
+        {
+            for (int i = 0; i < alternativeCheckpoints.Count; i++)
+            {
+                Gizmos.DrawLine(transform.position, alternativeCheckpoints[i].position);
+            }
+        }
 
         for(int i=0; i < nextCheckpoints.Count; i++)
         {
             Gizmos.DrawLine(transform.position, nextCheckpoints[i].position);
         }
     }
-    
-    #endif
+#endif
+
+    public void CheckpointBlocked()
+    {
+        if (blocked == true)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
