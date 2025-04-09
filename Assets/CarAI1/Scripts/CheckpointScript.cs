@@ -19,7 +19,8 @@ public class CheckpointScript : MonoBehaviour
 
     void Awake()
     {
-        for(int i = 0; i < nextCheckpoints.Count; i++)
+
+        for (int i = 0; i < nextCheckpoints.Count; i++)
         {
             if(nextCheckpoints[i] == null)
             {
@@ -28,9 +29,16 @@ public class CheckpointScript : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {
+        HideCheckpoints();
+
         for (int i = 0; i < nextCheckpoints.Count; i++)
         {
             if (nextCheckpoints[i] == null)
@@ -40,7 +48,7 @@ public class CheckpointScript : MonoBehaviour
                 nextCheckpoints.Add(alternativeCheckpoints[index]);
             }
         }
-
+        
         CheckpointBlocked();
 
     }
@@ -88,6 +96,12 @@ public class CheckpointScript : MonoBehaviour
             }
 
         }
+    }
+
+    private void HideCheckpoints()
+    {
+        Renderer meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.enabled = false;
     }
 
 #if UNITY_EDITOR
