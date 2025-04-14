@@ -16,6 +16,12 @@ public class DroneMovement : MonoBehaviour
     [Tooltip("Waypoint Set 2")]
     public List<Transform> waypointSet2 = new();
 
+    [Tooltip("Waypoint Set 3")]
+    public List<Transform> waypointSet3 = new();
+
+    [Tooltip("Waypoint Set 4")]
+    public List<Transform> waypointSet4 = new();
+
     private Transform nextLocation;
 
     private Vector3 movementDirection;
@@ -95,7 +101,7 @@ public class DroneMovement : MonoBehaviour
         isLaunched = true;
     }
 
-    private void SetWaypointSet(int setNumber)
+    public void SetWaypointSet(int setNumber)
     {
         if (setNumber == 1)
         {
@@ -105,14 +111,18 @@ public class DroneMovement : MonoBehaviour
         {
             location = new List<Transform>(waypointSet2);
         }
-    }
-    public void UseWaypointSet1()
-    {
-        SetWaypointSet(1);
-    }
-
-    public void UseWaypointSet2()
-    {
-        SetWaypointSet(2);
+        else if (setNumber == 3)
+        {
+            location = new List<Transform>(waypointSet3);
+        }
+        else if (setNumber == 4)
+        {
+            location = new List<Transform>(waypointSet4);
+        }
+        else
+        {
+            Debug.LogError("Invalid waypoint set number: " + setNumber);
+            return;
+        }
     }
 }
