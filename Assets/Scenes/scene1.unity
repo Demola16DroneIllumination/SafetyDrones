@@ -2889,7 +2889,7 @@ GameObject:
   - component: {fileID: 141911237}
   - component: {fileID: 141911236}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4031,7 +4031,7 @@ PrefabInstance:
       objectReference: {fileID: 369793156}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (3)
+      value: Car 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -5391,7 +5391,7 @@ PrefabInstance:
       objectReference: {fileID: 369793156}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1
+      value: Car 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -8476,7 +8476,7 @@ PrefabInstance:
       objectReference: {fileID: 223012122}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (1)
+      value: Car 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -8655,7 +8655,7 @@ GameObject:
   - component: {fileID: 363768042}
   - component: {fileID: 363768041}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13081,7 +13081,7 @@ PrefabInstance:
       objectReference: {fileID: 242190006}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (6)
+      value: Car 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -17935,7 +17935,7 @@ GameObject:
   - component: {fileID: 702752421}
   - component: {fileID: 702752420}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19115,7 +19115,7 @@ PrefabInstance:
       objectReference: {fileID: 242190006}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (5)
+      value: Car 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -29856,7 +29856,7 @@ GameObject:
   - component: {fileID: 1141765959}
   - component: {fileID: 1141765958}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33014,7 +33014,7 @@ GameObject:
   - component: {fileID: 1251845695}
   - component: {fileID: 1251845694}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34260,7 +34260,7 @@ GameObject:
   - component: {fileID: 1282732871}
   - component: {fileID: 1282732870}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43909,6 +43909,13 @@ MonoBehaviour:
   - {fileID: 13972655}
   - {fileID: 37460063}
   - {fileID: 140922128}
+  - {fileID: 1282732872}
+  - {fileID: 1251845696}
+  - {fileID: 2038241342}
+  - {fileID: 141911238}
+  - {fileID: 363768043}
+  - {fileID: 1141765960}
+  - {fileID: 702752422}
   currentIndex: 0
 --- !u!4 &1644286392
 Transform:
@@ -50560,7 +50567,7 @@ PrefabInstance:
       objectReference: {fileID: 369793156}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (4)
+      value: Car 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -52527,7 +52534,7 @@ PrefabInstance:
       objectReference: {fileID: 1504767430}
     - target: {fileID: 3874116734095810196, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: m_Name
-      value: Car DemoScene1 (2)
+      value: Car 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -53899,7 +53906,7 @@ GameObject:
   - component: {fileID: 2038241341}
   - component: {fileID: 2038241340}
   m_Layer: 0
-  m_Name: CameraCar
+  m_Name: CameraCar3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
