@@ -22,6 +22,9 @@ public class DroneMovement : MonoBehaviour
     [Tooltip("Waypoint Set 4")]
     public List<Transform> waypointSet4 = new();
 
+    [Tooltip("Home Point")]
+    public List<Transform> homepoint = new();
+
     private Transform nextLocation;
 
     private Vector3 movementDirection;
@@ -118,6 +121,10 @@ public class DroneMovement : MonoBehaviour
         else if (setNumber == 4)
         {
             location = new List<Transform>(waypointSet4);
+        }
+        else if (setNumber == 0)
+        {
+            location = new List<Transform>(homepoint);
         }
         else
         {
