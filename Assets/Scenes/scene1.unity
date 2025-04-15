@@ -201,6 +201,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 1428728012}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 6
@@ -790,6 +810,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 382102300}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 7
@@ -2135,6 +2175,24 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &106552795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7751890815063596216, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &106552803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106552795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451699c40ca14be4d823f9535b1674a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoplight: {fileID: 1790855258}
 --- !u!4 &107803614 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5564214462465924865, guid: bb2fbe10985b8584aae4b5849c7a5ee1, type: 3}
@@ -5342,7 +5400,7 @@ PrefabInstance:
       objectReference: {fileID: 4119092819908698671, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     - target: {fileID: 3796871512443561687, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: speedLimit
-      value: 30
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 3796871512443561687, guid: 877f93ca6df0dda4bacada70ad8d1e22, type: 3}
       propertyPath: nextCheckpoint
@@ -7864,6 +7922,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 1313082843}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 4
@@ -8725,6 +8803,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!108 &363956628 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &366083348
 GameObject:
   m_ObjectHideFlags: 0
@@ -11480,10 +11563,62 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 867736288}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.48264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7699592
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.70743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.9836
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.67716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 15ff4ba6789dd814a802a627b0fe38ca, type: 2}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.470588
@@ -11524,11 +11659,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6541290852326212463, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1047861003338462131, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6541290852326212463, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631353567}
+    - targetCorrespondingSourceObject: {fileID: 7751890815063596216, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 106552803}
+    - targetCorrespondingSourceObject: {fileID: 3752532860758533508, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1869592820}
+    - targetCorrespondingSourceObject: {fileID: 6409371719087277708, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1943710400}
+    - targetCorrespondingSourceObject: {fileID: 5739267322651477469, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1224995311}
   m_SourcePrefab: {fileID: 100100000, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
 --- !u!114 &487368446 stripped
 MonoBehaviour:
@@ -15915,6 +16069,37 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &631353563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6541290852326212463, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &631353565 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5231868591073477693, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &631353567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631353563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0d4a3ce44c5fd4fa717ad0778979ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenRenderer: {fileID: 631353565}
+  projectorLight: {fileID: 363956628}
+  screenTextures:
+  - {fileID: 2800000, guid: b78c093333c1e304cab97735755594df, type: 3}
+  - {fileID: 2800000, guid: 52c979d4d2e19c949ae102dfadedee96, type: 3}
+  - {fileID: 2800000, guid: e1d41f802751d9c4d872582b17ca2cf6, type: 3}
+  - {fileID: 2800000, guid: 243b27cbf3b4d304b80bd5d47ff9e2c6, type: 3}
+  - {fileID: 2800000, guid: 5790a47b5c611bf43b1ee30f60d1d178, type: 3}
+  - {fileID: 2800000, guid: fa0e3506543e5cf408a2f94f3a172021, type: 3}
 --- !u!1 &634632218
 GameObject:
   m_ObjectHideFlags: 0
@@ -30487,6 +30672,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 1699067536}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 5
@@ -32183,6 +32388,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224489489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1224995308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5739267322651477469, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1224995311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224995308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0d4a3ce44c5fd4fa717ad0778979ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenRenderer: {fileID: 0}
+  projectorLight: {fileID: 0}
+  screenTextures: []
 --- !u!1001 &1226181342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33126,6 +33351,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 1803495867}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 3
@@ -44193,6 +44438,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 2072095471}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 2
@@ -47046,6 +47311,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
   m_PrefabInstance: {fileID: 1578018629}
   m_PrefabAsset: {fileID: 0}
+--- !u!108 &1790855258 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 9076392179699260070, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1790872679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
@@ -49132,6 +49402,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868040756}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1869592817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3752532860758533508, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1869592820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869592817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451699c40ca14be4d823f9535b1674a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoplight: {fileID: 0}
 --- !u!1 &1871891192
 GameObject:
   m_ObjectHideFlags: 0
@@ -49235,6 +49523,26 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 130387441}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 261.4826
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.21901
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 151.7074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167369215817816626, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Intensity
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 5185210998719189227, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_Name
       value: Drone 8
@@ -51098,6 +51406,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 461546863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1943710396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6409371719087277708, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1943710399 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 7300072572091182800, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1943710400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943710396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451699c40ca14be4d823f9535b1674a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoplight: {fileID: 1943710399}
 --- !u!1 &1948857001
 GameObject:
   m_ObjectHideFlags: 0
