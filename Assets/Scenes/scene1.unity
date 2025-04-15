@@ -137,6 +137,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D6
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: 'waypointSet1.Array.data[0]'
       value: 
@@ -262,6 +270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93edd6e60ae89a04c809206ca6e5cb7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &13972655 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 13972653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15556838 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4711277591714087341, guid: bb2fbe10985b8584aae4b5849c7a5ee1, type: 3}
@@ -726,6 +739,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D7
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: 'waypointSet1.Array.data[0]'
       value: 
@@ -851,6 +872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93edd6e60ae89a04c809206ca6e5cb7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &37460063 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 37460061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &45392872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1088,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!20 &54090466 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1252591388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &55322961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2840,6 +2871,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!20 &140922128 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1873259934}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &141911234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3546,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155497615}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!20 &165873309 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 336501936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &166082109
 GameObject:
   m_ObjectHideFlags: 0
@@ -7784,6 +7825,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D4
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: waypointSet1.Array.size
       value: 4
@@ -7925,6 +7974,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93edd6e60ae89a04c809206ca6e5cb7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &336501938 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 336501936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &343869103
 GameObject:
   m_ObjectHideFlags: 0
@@ -11400,6 +11454,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D1
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: waypointSet1.Array.size
       value: 4
@@ -11525,8 +11583,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 1047861003338462131, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
@@ -12168,6 +12225,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!20 &501676873 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1175913137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &502750280
 GameObject:
   m_ObjectHideFlags: 0
@@ -16940,6 +17002,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
+--- !u!20 &670960401 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1252591388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &673959303
 GameObject:
   m_ObjectHideFlags: 0
@@ -22755,6 +22822,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879705260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!20 &880094670 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 37460061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &880934999 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
@@ -24263,6 +24335,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
   m_PrefabInstance: {fileID: 543366287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &952031093 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1873259934}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &953822965 stripped
 GameObject:
@@ -27930,6 +28007,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!20 &1076926324 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1676686008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1080765978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
@@ -30178,6 +30260,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158959358}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!20 &1167939072 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 13972653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1170643469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2760236798952502552, guid: bb2fbe10985b8584aae4b5849c7a5ee1, type: 3}
@@ -30407,6 +30494,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D5
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: waypointSet1.Array.size
       value: 4
@@ -30548,6 +30643,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93edd6e60ae89a04c809206ca6e5cb7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &1175913139 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1175913137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1179064252
 GameObject:
   m_ObjectHideFlags: 0
@@ -33046,6 +33146,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D3
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: waypointSet1.Array.size
       value: 4
@@ -37651,6 +37759,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 11b412f2ff905c341be6af606611e4a3, type: 3}
   m_PrefabInstance: {fileID: 848258342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1420745257 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7373667659739062055, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1421211658
 GameObject:
@@ -43780,8 +43893,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camList:
-  - {fileID: 0}
-  - {fileID: 1282732872}
+  - {fileID: 1660759002}
+  - {fileID: 1690084348}
+  - {fileID: 670960401}
+  - {fileID: 165873309}
+  - {fileID: 501676873}
+  - {fileID: 1167939072}
+  - {fileID: 880094670}
+  - {fileID: 952031093}
+  - {fileID: 1420745257}
+  - {fileID: 1076926324}
+  - {fileID: 54090466}
+  - {fileID: 336501938}
+  - {fileID: 1175913139}
+  - {fileID: 13972655}
+  - {fileID: 37460063}
+  - {fileID: 140922128}
+  currentIndex: 0
 --- !u!4 &1644286392
 Transform:
   m_ObjectHideFlags: 0
@@ -43921,6 +44049,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
   m_PrefabInstance: {fileID: 1583928943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1660759002 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 487368445}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1668829193
 GameObject:
@@ -44113,6 +44246,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D2
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: waypointSet1.Array.size
       value: 4
@@ -44682,6 +44823,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
+--- !u!20 &1690084348 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4036024983007093820, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+  m_PrefabInstance: {fileID: 1676686008}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1696593259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
@@ -49171,6 +49317,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355933708998873190, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera Above D8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1089334890354287553, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Name
+      value: Camera behind D8
+      objectReference: {fileID: 0}
     - target: {fileID: 1721639728491575401, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: 'waypointSet1.Array.data[0]'
       value: 
