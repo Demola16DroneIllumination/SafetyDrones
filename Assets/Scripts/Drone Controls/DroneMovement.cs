@@ -27,27 +27,24 @@ public class DroneMovement : MonoBehaviour
 
     private Transform nextLocation;
 
-    private Vector3 movementDirection;
     public float rotationSpeed = 120;
 
     [Tooltip("Drone's speed")]
     public float droneSpeed = 5;
 
-    [Header("Drone Inputs")]
-    [Tooltip("Drone's launch input")]
-    [SerializeField]
-    private InputActionReference launchInput;
     private bool isLaunched = false;
 
     [SerializeField]
     private Transform DronePart;
     private bool finalDestination = false;
 
+    private CarAIController carAIController;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        carAIController = GameObject.Find("CarAIController").GetComponent<CarAIController>();
     }
 
     // Update is called once per frame
@@ -96,8 +93,6 @@ public class DroneMovement : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, nextLocation.position, droneSpeed * Time.deltaTime);
 
     }
-
-
 
     public void LaunchDrone()
     {

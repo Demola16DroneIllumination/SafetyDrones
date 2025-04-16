@@ -126,15 +126,6 @@ public class CarAIController : MonoBehaviour
         yield return null;
     }
 
-    private void OnEnable()
-    {
-        driveInput.action.performed += StartDriving;
-    }
-
-    private void OnDisable()
-    {
-        driveInput.action.performed -= StartDriving;
-    }
 
     private bool isCarFlipedOver()
     {
@@ -271,7 +262,7 @@ public class CarAIController : MonoBehaviour
     
     }
 
-    private void StartDriving(InputAction.CallbackContext context)
+    public void StartDriving()
     {
         isDriving = true;
     }
