@@ -22,29 +22,29 @@ public class DroneMovement : MonoBehaviour
     [Tooltip("Waypoint Set 4")]
     public List<Transform> waypointSet4 = new();
 
+    [Tooltip("Home Point")]
+    public List<Transform> homepoint = new();
+
     private Transform nextLocation;
 
-    private Vector3 movementDirection;
     public float rotationSpeed = 120;
 
     [Tooltip("Drone's speed")]
     public float droneSpeed = 5;
 
-    [Header("Drone Inputs")]
-    [Tooltip("Drone's launch input")]
-    [SerializeField]
-    private InputActionReference launchInput;
     private bool isLaunched = false;
 
     [SerializeField]
     private Transform DronePart;
     private bool finalDestination = false;
 
+    private CarAIController carAIController;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        carAIController = GameObject.Find("CarAIController").GetComponent<CarAIController>();
     }
 
     // Update is called once per frame
@@ -94,8 +94,6 @@ public class DroneMovement : MonoBehaviour
 
     }
 
-
-
     public void LaunchDrone()
     {
         isLaunched = true;
@@ -118,6 +116,10 @@ public class DroneMovement : MonoBehaviour
         else if (setNumber == 4)
         {
             location = new List<Transform>(waypointSet4);
+        }
+        else if (setNumber == 0)
+        {
+            location = new List<Transform>(homepoint);
         }
         else
         {

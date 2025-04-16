@@ -12,7 +12,8 @@ public class CameraChangeScript : MonoBehaviour
     //public Camera camDrone1;
 
     public List<Camera> camList;
-    private int currentIndex = 0;
+    public int currentIndex = 0;
+    public bool autoCameraEnabled = true;
     void Start()
     {
 
@@ -43,7 +44,7 @@ public class CameraChangeScript : MonoBehaviour
         }
     }
 
-    void EnableCamera(int index)
+    public void EnableCamera(int index)
     {
         
         for (int i = 0; i < camList.Count; i++)

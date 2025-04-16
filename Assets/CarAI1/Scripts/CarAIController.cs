@@ -126,15 +126,6 @@ public class CarAIController : MonoBehaviour
         yield return null;
     }
 
-    private void OnEnable()
-    {
-        driveInput.action.performed += StartDriving;
-    }
-
-    private void OnDisable()
-    {
-        driveInput.action.performed -= StartDriving;
-    }
 
     private bool isCarFlipedOver()
     {
@@ -186,45 +177,34 @@ public class CarAIController : MonoBehaviour
     }
 
     private void CalculateKMH()
-    {
-        if(stopwatch.IsRunning)
-        {
-            stopwatch.Stop();
+{
+    float distance = (transform.position - lastPos).magnitude;
+    float time = Time.fixedDeltaTime; // Use Unity's fixed time step
 
-            float distance = (transform.position - lastPos).magnitude;
-            float time = stopwatch.Elapsed.Milliseconds / (float)1000;
+    kmh = (int)((distance / time) * 3.6f); // m/s to km/h
 
-            kmh = (int)(3600 * distance / time / 1000);
-
-            lastPos = transform.position;
-            stopwatch.Reset();
-            stopwatch.Start();
-
-        }
-        else
-        {
-            lastPos = transform.position;
-            stopwatch.Reset();
-            stopwatch.Start();
-        }
-    }
+    lastPos = transform.position;
+}
 
     /// <summary>
     /// Sets the speed of the vehicle to the one given in the parameter.
     /// </summary>
     public void SetSpeed(int speedLimit)
+{
+    float desiredSpeed = speedLimit / 3.6f; // Convert to m/s
+    float currentSpeed = rearLeftCollider.rpm * rearLeftCollider.radius * 2 * Mathf.PI / 60f; // Estimate m/s
+
+    if (currentSpeed < desiredSpeed)
     {
-        if (kmh > speedLimit)
-        {
-            Break(breaking);
-            Accelerate(0);
-        }
-        else if (kmh < speedLimit)
-        {
-            Accelerate(acceleration);
-            Break(0);
-        }
+        Accelerate(acceleration);
+        Break(0);
     }
+    else
+    {
+        Break(breaking);
+        Accelerate(0);
+    }
+}
 
     private void SearchForCheckpoints()
     {
@@ -282,7 +262,7 @@ public class CarAIController : MonoBehaviour
     
     }
 
-    private void StartDriving(InputAction.CallbackContext context)
+    public void StartDriving()
     {
         isDriving = true;
     }
