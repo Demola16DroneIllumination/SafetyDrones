@@ -24,7 +24,7 @@ public class CameraChangeScript : MonoBehaviour
 
         //camCar1.enabled = true;
         //camDrone1.enabled = false;
-        EnableCamera(0);
+        EnableCamera(currentIndex);
 
 
 

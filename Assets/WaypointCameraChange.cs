@@ -21,7 +21,7 @@ public class WaypointCameraChange : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (cameraChangeScript.autoCameraEnabled)
+        if (cameraChangeScript.autoCameraEnabled && thisPointCameraChangeEnabled && other.CompareTag("CameraChangeDrone")) //&& (other.gameObject.layer == 6))
         { 
             cameraChangeScript.EnableCamera(cameraIndex);
         }
