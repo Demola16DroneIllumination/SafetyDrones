@@ -1203,9 +1203,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  homepoint: []
   rotationSpeed: 120
   droneSpeed: 20
-  launchInput: {fileID: 0}
   DronePart: {fileID: 5327811466208530915}
 --- !u!1 &5739267322651477469
 GameObject:
@@ -1339,6 +1339,7 @@ GameObject:
   - component: {fileID: 2696063674463609747}
   - component: {fileID: 7300072572091182800}
   - component: {fileID: 6427124735831632683}
+  - component: {fileID: 4505023673505863923}
   m_Layer: 0
   m_Name: Spot.001
   m_TagString: Untagged
@@ -1449,6 +1450,19 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &4505023673505863923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409371719087277708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451699c40ca14be4d823f9535b1674a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoplight: {fileID: 7300072572091182800}
 --- !u!1 &6541290852326212463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,6 +1474,7 @@ GameObject:
   - component: {fileID: 4095681964707294656}
   - component: {fileID: 7770939552378354615}
   - component: {fileID: 5231868591073477693}
+  - component: {fileID: 5933413846638792191}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1535,6 +1550,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5933413846638792191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6541290852326212463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0d4a3ce44c5fd4fa717ad0778979ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenRenderer: {fileID: 5231868591073477693}
+  projectorLight: {fileID: 4167369215817816626}
+  screenTextures:
+  - {fileID: 2800000, guid: 91171d1c0203fca4b88889b227eb9f05, type: 3}
+  - {fileID: 2800000, guid: 52c979d4d2e19c949ae102dfadedee96, type: 3}
+  - {fileID: 2800000, guid: e1d41f802751d9c4d872582b17ca2cf6, type: 3}
+  - {fileID: 2800000, guid: 243b27cbf3b4d304b80bd5d47ff9e2c6, type: 3}
+  - {fileID: 2800000, guid: 5790a47b5c611bf43b1ee30f60d1d178, type: 3}
+  - {fileID: 2800000, guid: fa0e3506543e5cf408a2f94f3a172021, type: 3}
 --- !u!1 &7751890815063596216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1582,7 @@ GameObject:
   - component: {fileID: 7846484588710066163}
   - component: {fileID: 9187527788855978956}
   - component: {fileID: 7269095279932435620}
+  - component: {fileID: 9058649794628454762}
   m_Layer: 0
   m_Name: Cylinder.002
   m_TagString: Untagged
@@ -1623,6 +1660,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9058649794628454762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751890815063596216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451699c40ca14be4d823f9535b1674a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoplight: {fileID: 9076392179699260070}
 --- !u!1 &8100016141887140982
 GameObject:
   m_ObjectHideFlags: 0
