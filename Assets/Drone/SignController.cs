@@ -28,13 +28,17 @@ public class DroneScreenController : MonoBehaviour
             NextTexture();
         }
 
-        // Sammuta/käynnistä näyttö painamalla P
+        // Sammuta/kï¿½ynnistï¿½ nï¿½yttï¿½ painamalla P
         if (Input.GetKeyDown(KeyCode.P))
         {
             ToggleScreen();
         }
     }
 
+    public void SetScreenTexture(int signIndex){
+        currentIndex = signIndex;
+        ApplyTexture();
+    }
     public void NextTexture()
     {
         if (screenTextures.Length == 0) return;
@@ -57,7 +61,7 @@ public class DroneScreenController : MonoBehaviour
         }
         else
         {
-            // Käynnistä molemmat
+            // Kï¿½ynnistï¿½ molemmat
             ApplyTexture();
 
             if (projectorLight != null)
