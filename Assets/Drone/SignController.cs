@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class DroneScreenController : MonoBehaviour
@@ -5,6 +6,8 @@ public class DroneScreenController : MonoBehaviour
     [Header("Drone screen material settings")]
     public Renderer screenRenderer;
     public Light projectorLight;
+    public Light Spotlight1;
+    public Light Spotlight2;
     public Texture2D[] screenTextures;
 
     private int currentIndex = 0;
@@ -17,6 +20,8 @@ public class DroneScreenController : MonoBehaviour
             screenMaterial = screenRenderer.material;
             ApplyTexture();
         }
+        DisableSign(); // Disable the sign at the start
+        DisableSpotlights(); // Disable the spotlights at the start
     }
 
     void Update()
@@ -28,13 +33,16 @@ public class DroneScreenController : MonoBehaviour
             NextTexture();
         }
 
-        // Sammuta/käynnistä näyttö painamalla P
+        // Sammuta/kï¿½ynnistï¿½ nï¿½yttï¿½ painamalla P
         if (Input.GetKeyDown(KeyCode.P))
         {
             ToggleScreen();
         }
     }
 
+    public void SetScreenTexture(int signIndex){
+        currentIndex = signIndex;
+    }
     public void NextTexture()
     {
         if (screenTextures.Length == 0) return;
@@ -57,14 +65,49 @@ public class DroneScreenController : MonoBehaviour
         }
         else
         {
-            // Käynnistä molemmat
+            // Kï¿½ynnistï¿½ molemmat
             ApplyTexture();
 
             if (projectorLight != null)
                 projectorLight.enabled = true;
         }
     }
+    
+    public void EnableSign()
+    {
+        // Enable both the screen and the projector light
+        ApplyTexture();
 
+        if (projectorLight != null)
+            projectorLight.enabled = true;
+    }
+
+    public void DisableSign()
+    {
+        // Disable both the screen and the projector light
+        screenMaterial.DisableKeyword("_EMISSION");
+        screenMaterial.SetTexture("_EmissionMap", null);
+        screenMaterial.mainTexture = null;
+
+        if (projectorLight != null)
+            projectorLight.enabled = false;
+    }
+
+    public void EnableSpotlights()
+    {
+        if (Spotlight1 != null)
+            Spotlight1.enabled = true;
+        if (Spotlight2 != null)
+            Spotlight2.enabled = true;
+    }
+    public void DisableSpotlights()
+    {
+        if (Spotlight1 != null)
+            Spotlight1.enabled = false;
+        if (Spotlight2 != null)
+            Spotlight2.enabled = false;
+    }
+    
     private void ApplyTexture()
     {
         Texture2D tex = screenTextures[currentIndex];
@@ -77,6 +120,8 @@ public class DroneScreenController : MonoBehaviour
         if (projectorLight != null)
         {
             projectorLight.cookie = tex;
+            
+            
         }
     }
 }

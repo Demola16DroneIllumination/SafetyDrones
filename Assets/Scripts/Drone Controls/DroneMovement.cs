@@ -21,9 +21,7 @@ public class DroneMovement : MonoBehaviour
 
     [Tooltip("Waypoint Set 4")]
     public List<Transform> waypointSet4 = new();
-
-    [Tooltip("Home Point")]
-    public List<Transform> homepoint = new();
+    private List<Transform> homepoint = new();
 
     private Transform nextLocation;
 
