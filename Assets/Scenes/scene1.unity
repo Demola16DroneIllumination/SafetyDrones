@@ -11879,6 +11879,7 @@ MonoBehaviour:
   nextCheckpoints:
   - {fileID: 1476086330}
   - {fileID: 526013587}
+  - {fileID: 1476086330}
   alternativeCheckpoints: []
   blocked: 0
 --- !u!23 &397519477

@@ -38,14 +38,8 @@ public class DroneMovement : MonoBehaviour
     private Transform DronePart;
     private bool finalDestination = false;
 
-    private CarAIController carAIController;
-
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        carAIController = GameObject.Find("CarAIController").GetComponent<CarAIController>();
-    }
 
     // Update is called once per frame
     void FixedUpdate()
