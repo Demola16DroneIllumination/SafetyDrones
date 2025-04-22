@@ -84,13 +84,17 @@ public class DroneScreenController : MonoBehaviour
 
     public void DisableSign()
     {
-        // Disable both the screen and the projector light
-        screenMaterial.DisableKeyword("_EMISSION");
-        screenMaterial.SetTexture("_EmissionMap", null);
-        screenMaterial.mainTexture = null;
+        if (screenMaterial != null) // Check if screenMaterial is not null  
+        {
+            screenMaterial.DisableKeyword("_EMISSION");
+            screenMaterial.SetTexture("_EmissionMap", null);
+            screenMaterial.mainTexture = null;
+        }
 
-        if (projectorLight != null)
+        if (projectorLight != null) // Check if projectorLight is not null  
+        {
             projectorLight.enabled = false;
+        }
     }
 
     public void EnableSpotlights()
