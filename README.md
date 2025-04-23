@@ -6,7 +6,7 @@
 Make sure you have installed Unity editor version 6000.0.41f1 <br/>
 that prevents any editor version problems that may occur within the Unity<br/>
 <br/>
-Install Blender you need this due the drone asset being .blend file and Unity needs the Blender installed to be able to access it
+Install Blender you need this due the drone asset being .blend file and Unity needs the Blender installed to be able to access it<br/>
 <br/>
 Pull or Download the code and then open it the Unity editor <br/>
 Project in the Unity should have all the necessary assets already installed<br/>
