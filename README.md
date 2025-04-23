@@ -12,7 +12,7 @@ Pull or Download the code and then open it the Unity editor <br/>
 Project in the Unity should have all the necessary assets already installed<br/>
 If there is errors regarding asset files you can download them in the assets section<br/>
 <br/>
-## **Assets Used**
+**Assets Used**
 <br/>
 Fire vfx: https://assetstore.unity.com/packages/vfx/particles/fire-explosions/free-fire-vfx-urp-266226 <br/>
 demo city buildings: https://assetstore.unity.com/packages/3d/environments/urban/demo-city-by-versatile-studio-mobile-friendly-269772 <br/>
