@@ -3,6 +3,7 @@ using UnityEngine;
 public class AccidentSwitcher : MonoBehaviour
 {
     public GameObject[] AccidentAreas; // Array of accident areas
+    public GameObject[] AccidentTexts;
     public GameObject[] SignObjects;  // Array of 8 objects with DroneScreenController components
 
     void Start()
@@ -12,6 +13,12 @@ public class AccidentSwitcher : MonoBehaviour
         {
             AccidentAreas[i].SetActive(false);
         }
+
+        // Initialize all accident texts to inactive
+        for (int i = 0; i < AccidentTexts.Length; i++)
+        {
+            AccidentTexts[i].SetActive(false);
+        }
     }
 
     public void ShowAccident(int index)
@@ -20,6 +27,12 @@ public class AccidentSwitcher : MonoBehaviour
         for (int i = 0; i < AccidentAreas.Length; i++)
         {
             AccidentAreas[i].SetActive(i == index);
+        }
+
+        // Activate the corresponding accident text and deactivate others
+        for (int i = 0; i < AccidentTexts.Length; i++)
+        {
+            AccidentTexts[i].SetActive(i == index);
         }
 
         // Call the corresponding Area function based on the index
