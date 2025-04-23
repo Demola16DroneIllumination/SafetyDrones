@@ -10,7 +10,7 @@ Install Blender you need this due the drone asset being .blend file and Unity ne
 <br/>
 Pull or Download the code and then open it the Unity editor <br/>
 Project in the Unity should have all the necessary assets already installed<br/>
-If there is errors regarding asset files you can download them in the assets section
+If there is errors regarding asset files you can download them in the assets section<br/>
 <br/>
 ## Assets Used
 <br/>
