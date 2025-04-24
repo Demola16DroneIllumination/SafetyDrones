@@ -4035,6 +4035,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -72.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8641347562025758040, guid: e89ca2f597f5d664781786d72ebb8b0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8678803108483993400, guid: e89ca2f597f5d664781786d72ebb8b0c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -148.65
+      objectReference: {fileID: 0}
     - target: {fileID: 9091955003059944261, guid: e89ca2f597f5d664781786d72ebb8b0c, type: 3}
       propertyPath: m_Name
       value: Drone8 Path
@@ -30542,6 +30550,14 @@ PrefabInstance:
     - target: {fileID: 4672486566872718608, guid: a87cac5c5463f7f41bbaa3f5cf8b1061, type: 3}
       propertyPath: m_LocalPosition.z
       value: -163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303745563846872548, guid: a87cac5c5463f7f41bbaa3f5cf8b1061, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631432382761316645, guid: a87cac5c5463f7f41bbaa3f5cf8b1061, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -66985,6 +67001,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -154.2
       objectReference: {fileID: 0}
+    - target: {fileID: 4919546902001691779, guid: b0724f7d17f31ef41820c320d7874764, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300286932806369380, guid: b0724f7d17f31ef41820c320d7874764, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -109.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300286932806369380, guid: b0724f7d17f31ef41820c320d7874764, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24
+      objectReference: {fileID: 0}
     - target: {fileID: 6575502431274097038, guid: b0724f7d17f31ef41820c320d7874764, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.1
@@ -77814,6 +77842,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -39.91
       objectReference: {fileID: 0}
+    - target: {fileID: 1581124784113047351, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -185.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1581124784113047351, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22
+      objectReference: {fileID: 0}
     - target: {fileID: 2525126966316621890, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
       propertyPath: m_Name
       value: 'Drone5 Path '
@@ -77857,6 +77893,14 @@ PrefabInstance:
     - target: {fileID: 6691897954078093524, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911954526684788812, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -184.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7911954526684788812, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.57
       objectReference: {fileID: 0}
     - target: {fileID: 8882048306609392449, guid: df6631a39c3ca9f43bcbe78dfec9982f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -80717,7 +80761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1778520385
 Transform:
   m_ObjectHideFlags: 0
@@ -81420,6 +81464,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1155708317}
     m_Modifications:
+    - target: {fileID: 80488622555749898, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -158.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 80488622555749898, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 80488622555749898, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.11
+      objectReference: {fileID: 0}
     - target: {fileID: 753707913037230681, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.89
@@ -81427,6 +81483,10 @@ PrefabInstance:
     - target: {fileID: 753707913037230681, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -198.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249604763677586887, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -163
       objectReference: {fileID: 0}
     - target: {fileID: 2627074242836827656, guid: 5f79268ed8270ca4f87622e6aaa608b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -96639,6 +96699,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Drone2 Path '
       objectReference: {fileID: 0}
+    - target: {fileID: 3753240974694882754, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -172.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3753240974694882754, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.63
+      objectReference: {fileID: 0}
     - target: {fileID: 6522386674912000302, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -96678,6 +96746,14 @@ PrefabInstance:
     - target: {fileID: 6522386674912000302, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166897489261918490, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -177.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166897489261918490, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 8736057698649716075, guid: 08e47494ee25bad45af8de98cb0784e5, type: 3}
       propertyPath: m_LocalPosition.x
