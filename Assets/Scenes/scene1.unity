@@ -271,6 +271,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.y
       value: 4.012821
@@ -333,6 +337,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1257,6 +1265,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -1331,6 +1343,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4361,7 +4377,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141911234}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &141911238
 Camera:
   m_ObjectHideFlags: 0
@@ -10761,6 +10777,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 1313082843}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -10839,6 +10859,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11730,7 +11754,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363768039}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &363768043
 Camera:
   m_ObjectHideFlags: 0
@@ -15244,6 +15268,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.70358
@@ -15314,6 +15342,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -23822,7 +23854,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701439486}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &701439490
 Camera:
   m_ObjectHideFlags: 0
@@ -23959,7 +23991,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702752418}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &702752422
 Camera:
   m_ObjectHideFlags: 0
@@ -28421,7 +28453,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829305399}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &829305403
 Camera:
   m_ObjectHideFlags: 0
@@ -28499,7 +28531,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832744839}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &832744841
 Camera:
   m_ObjectHideFlags: 0
@@ -45691,7 +45723,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141765956}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1141765960
 Camera:
   m_ObjectHideFlags: 0
@@ -46227,7 +46259,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163331261}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1163331265
 Camera:
   m_ObjectHideFlags: 0
@@ -46729,6 +46761,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -46795,6 +46831,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -49464,7 +49504,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251845692}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1251845696
 Camera:
   m_ObjectHideFlags: 0
@@ -49612,6 +49652,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -49686,6 +49730,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -51071,7 +51119,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282732868}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1282732872
 Camera:
   m_ObjectHideFlags: 0
@@ -67717,7 +67765,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566028334}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1566028338
 Camera:
   m_ObjectHideFlags: 0
@@ -70753,6 +70801,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -70819,6 +70871,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -78028,6 +78084,10 @@ PrefabInstance:
       propertyPath: 'waypointSet4.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3225616755559924423, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4095681964707294656, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalScale.x
       value: 248.7036
@@ -78102,6 +78162,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578710897346869927, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9161046696088152333, guid: 87b2874c568f16f448be73bdcea74839, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -85637,7 +85701,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932131232}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1932131236
 Camera:
   m_ObjectHideFlags: 0
@@ -89474,7 +89538,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038241338}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2038241342
 Camera:
   m_ObjectHideFlags: 0
@@ -89611,7 +89675,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042807180}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2042807184
 Camera:
   m_ObjectHideFlags: 0
@@ -90612,7 +90676,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068052659}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2068052663
 Camera:
   m_ObjectHideFlags: 0
@@ -91985,7 +92049,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106922665}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2106922669
 Camera:
   m_ObjectHideFlags: 0
