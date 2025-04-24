@@ -31,6 +31,13 @@ public class AreaSpecificCamerasSript : MonoBehaviour
           rotateCameraNext(currentAreaCameraList);
                     
          }
+        else if(currentArea != 0 && Input.GetKeyDown(KeyCode.LeftShift) == true)
+        {
+            int[] currentAreaCameraList = getAreaCameraList(currentArea);
+            rotateCameraPrevious(currentAreaCameraList);
+        }
+
+
     }
 
 
@@ -44,6 +51,22 @@ public class AreaSpecificCamerasSript : MonoBehaviour
         else
         {
             currentIndex = 0;
+        }
+
+        //EnableCamera(currentIndex);
+        cameraChangeScript.EnableCamera(list[currentIndex]);
+    }
+
+    void rotateCameraPrevious(int[] list)
+    {
+        //if (currentIndex < camList.Count - 1)
+        if (currentIndex > 0)
+        {
+            currentIndex--;
+        }
+        else
+        {
+            currentIndex = list.Length - 1;
         }
 
         //EnableCamera(currentIndex);
