@@ -17164,7 +17164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e830cc2cea17e144b2a272be477af0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraIndex: 11
+  cameraIndex: 25
   cameraChangeScript: {fileID: 1644286391}
   thisPointCameraChangeEnabled: 1
 --- !u!65 &515641522
@@ -76264,7 +76264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraIndex: 16
   cameraChangeScript: {fileID: 1644286391}
-  thisPointCameraChangeEnabled: 1
+  thisPointCameraChangeEnabled: 0
 --- !u!65 &1649797847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81933,7 +81933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e830cc2cea17e144b2a272be477af0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraIndex: 3
+  cameraIndex: 24
   cameraChangeScript: {fileID: 1644286391}
   thisPointCameraChangeEnabled: 1
 --- !u!65 &1803660141
